@@ -2,80 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MCorp Corporate Services Melaka</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- ===== HEADER ===== -->
+  <!-- Header & Navbar -->
   <header>
     <div class="container">
-      <h1 class="logo">MyCompany</h1>
+      <img src="images/mcs-logo.png" alt="MCS Logo" class="logo">
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- ===== HERO SECTION ===== -->
+  <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>Welcome to MyCompany</h2>
-      <p>Your trusted partner for business solutions.</p>
-      <a href="#services" class="btn">Our Services</a>
+    <div class="hero-text">
+      <h1>Building Melaka’s Future</h1>
+      <p>MCorp Corporate Services supports Melaka’s economic growth through strategic development and innovation.</p>
+      <a href="#about" class="btn">Discover More</a>
     </div>
   </section>
 
-  <!-- ===== ABOUT US ===== -->
+  <!-- About -->
   <section id="about" class="section">
     <div class="container">
       <h2>About Us</h2>
-      <p>MyCompany is dedicated to delivering innovative solutions that help businesses grow and succeed. With a professional team and years of experience, we aim to provide the best services to our clients.</p>
+      <p>MCorp Corporate Services (MCS) is a subsidiary under Perbadanan Melaka (MCorp). Established in 1971, MCorp drives balanced socio-economic growth across industrial, tourism, housing, and trade sectors in Melaka.</p>
     </div>
   </section>
 
-  <!-- ===== SERVICES ===== -->
+  <!-- Services -->
   <section id="services" class="section bg-light">
     <div class="container">
       <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service">
-          <h3>Web Development</h3>
-          <p>We build responsive, modern, and fast websites tailored to your needs.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Corporate Support</h3>
+          <p>Administrative & strategic services for state development initiatives.</p>
         </div>
-        <div class="service">
-          <h3>Mobile Apps</h3>
-          <p>Custom mobile applications that enhance your business accessibility.</p>
+        <div class="card">
+          <h3>Project Coordination</h3>
+          <p>Managing infrastructure, tourism, and innovation projects.</p>
         </div>
-        <div class="service">
-          <h3>IT Consulting</h3>
-          <p>Expert guidance to help your company adopt the right technology.</p>
+        <div class="card">
+          <h3>Event Management</h3>
+          <p>Organizing state programs, entrepreneur carnivals & global events.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="section">
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Key Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>German Technology Park</h3>
+          <p>RM4B project with Cypark & Jakel to boost renewable energy and industrial growth.</p>
+        </div>
+        <div class="card">
+          <h3>World Tourism Day 2025</h3>
+          <p>Supporting Melaka’s global recognition as a leading tourism destination.</p>
+        </div>
+        <div class="card">
+          <h3>Entrepreneur Carnivals</h3>
+          <p>Empowering local entrepreneurs across Melaka’s DUN areas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section bg-light">
     <div class="container">
       <h2>Contact Us</h2>
+      <p><strong>Address:</strong> Menara MITC, Jalan Konvensyen, Kompleks MITC, 75450 Melaka</p>
+      <p><strong>Phone:</strong> +606-232 4433</p>
       <form id="contactForm">
         <input type="text" placeholder="Your Name" required>
         <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
         <button type="submit" class="btn">Send Message</button>
       </form>
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
+  <!-- Footer -->
   <footer>
-    <p>© 2025 MyCompany. All rights reserved.</p>
+    <p>© 2025 MCorp Corporate Services Melaka. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>

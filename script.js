@@ -1,5 +1,5 @@
-// Simple form handling (just shows alert)
+// Simple form handler
 document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
-  alert("Thank you for contacting us! We will reply soon.");
+  alert("✅ Thank you! Your message has been received.");
 });
